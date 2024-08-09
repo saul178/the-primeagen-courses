@@ -3,12 +3,9 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/saul178/algorithms/src/algorithms"
 )
 
 func main() {
-	testArray := [5]int{3, 4, 1, 24, 6}
-	testLinearSearch := algorithms.BubbleSort(testArray[:])
-	fmt.Print(testLinearSearch)
+	a := []int{0, 1, 2, 3, 4, 5}
+	fmt.Println(a[:len(a)-1])
 }
